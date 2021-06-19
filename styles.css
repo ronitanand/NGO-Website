@@ -300,6 +300,7 @@ footer{
 }
 .navigation ul li:hover{
     cursor: pointer;
+    text-decoration: underline;
     
 }
 
