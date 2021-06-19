@@ -197,6 +197,52 @@ transition-duration:0.3s ;
     color: rgb(241, 237, 237);
 }
 
+.our-services{
+    text-align: center;
+    margin: 70px 0 ;
+}
+.services{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 70px;
+    
+}
+.services div{
+    width: 300px;
+    text-align: center;
+    height: 200px;
+    background: gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.services div h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.services div p{
+    font-size: 20px;
+}
+
+.services div img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: -34px;
+    right: auto;
+    left: auto;
+    right: 113px;
+
+}
+
+
+
+
+
+
 /* join us */
 
 .join-us{
@@ -435,6 +481,8 @@ footer{
         width: 100%;
         margin-top: 40px;
     }
+    
+   
 
 
 
@@ -471,5 +519,22 @@ footer{
     .who-we-are{
         width: 70%;
     }
+
+    .services{
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .services div{
+        max-width: 350px;
+        
+    }
+
+    .services div:nth-child(2){
+        margin-top: 50px;
+    }
+    .services div:nth-child(3){
+        margin-top: 50px;
+    }
+    
 }
 
